@@ -1,0 +1,107 @@
+/* =========================================
+   SALA DE SITUAÇÃO - IDENTIDADE VISUAL
+   EDUCAÇÃO PERMANENTE
+========================================= */
+
+/* FUNDO PRINCIPAL */
+
+.stApp {
+  background-color: #f3f4f7;
+  color: #202124;
+}
+
+/* MENU LATERAL */
+
+section[data-testid="stSidebar"] {
+  background-color: #173568;
+  border-right: 1px solid #24477a;
+}
+
+/* TEXTOS DO MENU */
+
+section[data-testid="stSidebar"] * {
+  color: #ffffff;
+}
+
+/* TÍTULO PRINCIPAL */
+
+h1 {
+  color: #173568;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+/* SUBTÍTULOS */
+
+h2,
+h3,
+h4 {
+  color: #173568;
+  font-weight: 600;
+}
+
+/* CARTÕES */
+
+div[data-testid="stMetric"] {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e1e5ec;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* CAIXAS E CONTAINERS */
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+  border-radius: 12px;
+}
+
+/* FILTROS E CAMPOS */
+
+div[data-baseweb="select"] > div {
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* BOTÕES */
+
+.stButton > button {
+  background-color: #173568;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 18px;
+  font-weight: 600;
+}
+
+.stButton > button:hover {
+  background-color: #244b82;
+  color: #ffffff;
+}
+
+/* DIVISORES */
+
+hr {
+  border-color: #dce2eb;
+}
+
+/* TABELAS */
+
+div[data-testid="stDataFrame"] {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* RODAPÉ */
+
+footer {
+  visibility: hidden;
+}
+
+/* AJUSTE DO ESPAÇAMENTO */
+
+.block-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 1500px;
+}
